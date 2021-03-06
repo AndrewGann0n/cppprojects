@@ -1,13 +1,14 @@
-#ifndef SAMPLE_H
-#define SAMPLE_H
+#ifndef SHOE_H
+#define SHOE_H
 
 
-class Sample
+class Shoe 
 {
-    public:
-        int x;
-    private:
-
+    public: 
+        char shoesize[10];
+        char shoecolor[10];
+        void getpair();
+        void getpattern();
 };
 
-#endif // SAMPLE_H
+#endif // SHOE_H

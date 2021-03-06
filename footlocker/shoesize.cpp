@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "shoe.h"
 
 using namespace std;
 
@@ -9,20 +10,12 @@ struct footlocker
 
 };
 
-class Shoe 
-{
-    public: 
-        char shoesize[10];
-        char shoecolor[10];
-        void getpair();
-        void getpattern();
-};
 
 int main() {
 
     Shoe size, color;
 
-    cout << "Welcome enter your shoe size: 1-13 \n";
+    cout << "Welcome enter your shoe size: 6-13 \n";
     cin >> size.shoesize; 
     cout << "Enter your preferred shoe color: \n";
     cin >> color.shoecolor;
@@ -31,7 +24,7 @@ int main() {
 
     color.getpattern();
 
-    
+
 
 }
 
