@@ -13,8 +13,10 @@ struct footlocker
 
 int main() {
 
-    Shoe size, color;
+    Shoe size, color, gender;
 
+    cout << "Would you like to buy Mens or Womens shoes? \n";
+    cin >> gender.shoegender;
     cout << "Welcome enter your shoe size: 6-13 \n";
     cin >> size.shoesize; 
     cout << "Enter your preferred shoe color: \n";
@@ -28,8 +30,12 @@ int main() {
 
 }
 
+void Shoe::getgender(){
+    cout << "You are a: " << shoegender << endl;
+}
+
 void Shoe::getpair(){
-    cout << "You are a size: " << shoesize << endl;
+    cout << "size: " << shoesize << endl;
     
 }
 void Shoe::getpattern(){
