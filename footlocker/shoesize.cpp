@@ -22,6 +22,8 @@ int main() {
     cout << "Enter your preferred shoe color: \n";
     cin >> color.shoecolor;
 
+    gender.getgender();
+
     size.getpair();
 
     color.getpattern();
