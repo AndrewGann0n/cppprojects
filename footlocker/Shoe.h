@@ -8,9 +8,11 @@ class Shoe
         char shoesize[10];
         char shoecolor[10];
         char shoegender[10];
+        char shoebrand[10];
         void getgender();
         void getpair();
         void getpattern();
+        void getbrand();
 
         
 };
