@@ -15,9 +15,11 @@ int main() {
 
     Nike sh;
     Jordan gh;
+    Brooks br;
 
     Brands *shoemarketing1 = &sh;
     Brands *shoemarketing2 = &gh;
+    Brands *shoemarketing3 = &br;
 
     cout << "Welcome to Footlocker! \n";
 
@@ -25,6 +27,8 @@ int main() {
     shoemarketing1->type();
     shoemarketing2->info();
     shoemarketing2->type();
+    shoemarketing3->info();
+    shoemarketing3->type();
 
 
 

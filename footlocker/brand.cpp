@@ -32,3 +32,17 @@ class Jordan: public Brands {
         int stock = 11;
 
 };
+
+class Brooks: public Brands {
+    public: 
+        void info(){
+            cout << "Here is our Brooks Launch 7" << endl;
+        };
+        void type(){
+            cout << "It has three colors of pink, gold, and yellow" << endl;
+            cout << "It is priced at " << price << " and we have  " << stock << " pairs in stock." << endl;
+        };
+        double price = 70.25;
+        int stock = 4;
+
+};
